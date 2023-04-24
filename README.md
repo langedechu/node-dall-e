@@ -12,9 +12,9 @@ cd node-dall-e
 npm i
 ```
 
-After the installation, the program will run automatically with a template prompt.
-
 ## Usage
+
+Before using the app, you need to check the `.env` file in the root of the project. Inside this file, you need to replace `YOUR_API_KEY` with your own OpenAI API key.
 
 ```bash
 npm start <size> <prompt>
