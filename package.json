@@ -1,0 +1,21 @@
+{
+  "name": "node-dall-e",
+  "version": "1.0.0",
+  "description": "This is a simple Node.JS app that uses OpenAI's DALL-E model to generate images from a prompt.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm start",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": {
+    "email": "contact.nocteria@gmail.com",
+    "name": "Paul BONCAR",
+    "url": "https://langedechu.github.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
